@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Post Clone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+    }
+
+    .insta-post {
+      width: 400px;
+      background-color: #fff;
+      border: 1px solid #dbdbdb;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .insta-header {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .insta-header img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .insta-header .username {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .insta-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    .insta-actions {
+      padding: 10px;
+      display: flex;
+      gap: 10px;
+      font-size: 20px;
+    }
+
+    .insta-caption {
+      padding: 0 10px 10px;
+      font-size: 14px;
+    }
+
+    .insta-caption .username {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="insta-post">
+    <div class="insta-header">
+      <img src="https://via.placeholder.com/40" alt="Profile Pic">
+      <div class="username">john_doe</div>
+    </div>
+
+    <div class="insta-image">
+      <img src="https://via.placeholder.com/400x400" alt="Post Image">
+    </div>
+
+    <div class="insta-actions">
+      ❤️ 👍 💬 📤
+    </div>
+
+    <div class="insta-caption">
+      <span class="username">john_doe</span> Enjoying the summer vibes 🌞🌊
+    </div>
+  </div>
+
+</body>
+</html>
